@@ -22,7 +22,7 @@ body {
 }
 
 #texto-logo {
-    font-size: 1.3em;
+    font-size: 2em;
     color:var(--cor-logo) ;
 }
 
@@ -30,10 +30,11 @@ body {
     padding: 10px;
 }
 
-#area-menu > a {
+#area-menu > a:link, #area-menu > a:visited {
     color: #FFF;
     text-decoration: none;
-    padding: 10px;
+    padding: 10px 12px;
+    transition: 0.5s;
 }
 
 #area-menu > a:hover {
@@ -43,7 +44,7 @@ body {
 }
 
 #conteudo-principal {
-    width: 50vw;
+    width: 60vw;
     height: 100vh;
     margin: 20px auto;
     position: relative;
@@ -51,7 +52,7 @@ body {
 
 #conteudo {
     margin-bottom: 20px;
-    width: 33vw;
+    width: 40vw;
     float: left;
 }
 
