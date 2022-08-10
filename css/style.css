@@ -42,8 +42,110 @@ body {
     transition: 0.5s;
 }
 
+#conteudo-principal {
+    width: 50vw;
+    height: 100vh;
+    margin: 20px auto;
+    position: relative;
+}
+
+#conteudo {
+    margin-bottom: 20px;
+    width: 33vw;
+    float: left;
+}
+
+#conteudo-lateral {
+    width: 15vw;
+    float: right;
+    background-color: #FFF;
+    margin-bottom: 20px;
+    
+}
+
+#menu-lateral {
+    width: 15vw;
+    float: right;
+    background-color: #FFF;
+}
+
+#rodape {
+    clear: both;
+    text-align: center;
+    background-color: #c4c4c4;
+    padding: 10px;
+    margin-top: 0;
+}
+
 .branco {
     color: #FFF;
 }
 
+.postagem {
+    background-color: #FFF;
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+}
+
+.postagem > h1 {
+    color: var(--cor-titulo);
+    font-size: 1.5em;
+    padding: 10px 10px 0px 10px;
+}
+
+.postagem > span {
+    font-size: 0.8em;
+    padding: 10px;
+}
+
+.postagem > a {
+    padding: 10px;
+}
+
+.imagem {
+    width: 95%;
+    padding: 10px;
+}
+
+.post {
+    padding: 5px;
+    text-align: justify;
+    font-size: 0.8em;
+    border-bottom: 1px dotted #c4c4c4;
+}
+
+.post > a {
+    padding: 10px;
+}
+
+.nav-lateral{
+    margin-top: 0;
+    padding-top: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+p {
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0;
+}
+
+a {
+    color: #F7AE00;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 1.2em;
+    background-color: #c4c4c4;
+    margin: 10px;
+    padding: 10px;
+}
 
